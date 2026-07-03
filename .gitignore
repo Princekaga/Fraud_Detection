@@ -1,0 +1,14 @@
+# dataset (690 MB) - download from Kaggle, see README
+elliptic_bitcoin_dataset/
+archive/
+*.csv
+!results/*.csv
+
+# caches / temp
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/*.npy
+results/prob_*.npy
+node_modules/
+package*.json
